@@ -4,7 +4,20 @@ import assetImage from "../assets/react.svg";
 const Home = () => {
   return (
     <div>
-      <header>
+      <p></p>
+      <p></p>
+
+      <p>imported image</p>
+      <img src={assetImage} alt="import image" />
+      
+      <p></p>
+      <p></p>
+
+      <p>public folder image</p>
+      <img src="/catImage.jpeg" alt="public folder cat" />
+      <img src="/vite.svg" alt="public folder vite" />
+
+      {/* <header>
         <h1>Welcome to Glow Guide</h1>
       </header>
       <section>
@@ -14,24 +27,13 @@ const Home = () => {
           around the world.
         </p>
         <p>
-          Ready to witness the breathtaking beauty of the Northern Lights?
-          Sign up now to unlock additional features!
+          Ready to witness the breathtaking beauty of the Northern Lights? Sign
+          up now to unlock additional features!
         </p>
-        {/* Add a link or button to navigate to the SignUp page */}
         <a href="/sign-up">Sign Up</a>
-      </section>
-      <p></p>
-      <p></p>
-      <p>imported image</p>
-      <img src={assetImage} alt="import image" />
-      <p></p>
-      <p></p>
-      <p>public folder image</p>
-      <img src="/catImage.jpeg" alt="public folder cat" />
-      <img src="/vite.svg" alt="public folder vite" />
+      </section> */}
     </div>
   );
 };
 
 export default Home;
-
