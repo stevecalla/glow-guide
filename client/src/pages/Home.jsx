@@ -1,4 +1,5 @@
 // import React from 'react';
+import assetImage from "../assets/react.svg";
 
 const Home = () => {
   return (
@@ -19,6 +20,15 @@ const Home = () => {
         {/* Add a link or button to navigate to the SignUp page */}
         <a href="/sign-up">Sign Up</a>
       </section>
+      <p></p>
+      <p></p>
+      <p>imported image</p>
+      <img src={assetImage} alt="import image" />
+      <p></p>
+      <p></p>
+      <p>public folder image</p>
+      <img src="/catImage.jpeg" alt="public folder cat" />
+      <img src="/vite.svg" alt="public folder vite" />
     </div>
   );
 };
